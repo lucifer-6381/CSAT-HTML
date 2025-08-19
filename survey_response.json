@@ -1,0 +1,386 @@
+{
+  "survey": {
+    "id": "3705b9e9-9479-4416-80bc-b6388b1899e6",
+    "display_id": "SUR-2419877",
+    "name": "Manual Survey",
+    "desc": "test",
+    "type": "CSAT",
+    "state": "DRAFT",
+    "is_active": true,
+    "is_template": false,
+    "question_details": {
+      "questions": [
+        {
+          "id": "48381c52-7195-41bb-b6ac-e4b1cfda2812",
+          "text": "How satisfied are you with your support experience today?",
+          "name": "Q_1",
+          "deleted": false,
+          "required": false,
+          "type_info": {
+            "comment": false,
+            "driver": false,
+            "question_comment": false,
+            "question_comment_required": false,
+            "question_type": "RANGE",
+            "question_theme": "CSAT",
+            "type_variant": "EMOJI",
+            "scale_properties": {
+              "order": "ascending",
+              "range": [
+                {
+                  "id": "1",
+                  "min": 1,
+                  "max": 2,
+                  "label": "negative"
+                },
+                {
+                  "id": "2",
+                  "min": 3,
+                  "max": 3,
+                  "label": "neutral"
+                },
+                {
+                  "id": "3",
+                  "min": 4,
+                  "max": 5,
+                  "label": "positive"
+                }
+              ],
+              "button_style": {
+                "shape": "curved",
+                "type": "highlighted"
+              },
+              "labels": {
+                "preference": "all",
+                "values": [
+                  "Very dissatisfied",
+                  "Dissatisfied",
+                  "Neutral",
+                  "Satisfied",
+                  "Very satisfied"
+                ]
+              }
+            },
+            "footer_text": "<p style=\"text-align: center;\">We look forward to your feedback.</p>",
+            "header_text": null,
+            "meta": {
+              "question_hint": true
+            },
+            "pivot_question": true,
+            "matrix_properties": null,
+            "form_fields": null,
+            "text_field": null,
+            "file_field": null,
+            "number_field": null,
+            "contact_form": null,
+            "comment_placeholder": null
+          },
+          "dependent_blocks": [
+            {
+              "condition_type": "ALL",
+              "next_block": "B2"
+            }
+          ]
+        },
+        {
+          "id": "bed2a1b6-a06e-4a5a-81a7-2a5855e59dc0",
+          "text": "Thank you for your feedback. Could you please elaborate on what you liked the most?",
+          "name": "Q_20",
+          "deleted": false,
+          "required": false,
+          "type_info": {
+            "comment": true,
+            "driver": false,
+            "question_comment": false,
+            "question_comment_required": false,
+            "question_type": "PARAGRAPH",
+            "question_theme": null,
+            "type_variant": null,
+            "scale_properties": null,
+            "footer_text": null,
+            "header_text": null,
+            "meta": null,
+            "pivot_question": false,
+            "matrix_properties": null,
+            "form_fields": null,
+            "text_field": null,
+            "file_field": null,
+            "number_field": null,
+            "contact_form": null,
+            "comment_placeholder": null
+          },
+          "dependent_blocks": [
+            {
+              "condition_type": "ALL",
+              "next_block": "TY"
+            }
+          ]
+        },
+        {
+          "id": "6e5d7837-8427-4e56-aa85-4cf5dc1d39ff",
+          "text": "It seems we still have room to improve. Where can we do better?",
+          "name": "Q_21",
+          "deleted": false,
+          "required": false,
+          "type_info": {
+            "comment": true,
+            "driver": false,
+            "question_comment": false,
+            "question_comment_required": false,
+            "question_type": "PARAGRAPH",
+            "question_theme": null,
+            "type_variant": null,
+            "scale_properties": null,
+            "footer_text": null,
+            "header_text": null,
+            "meta": null,
+            "pivot_question": false,
+            "matrix_properties": null,
+            "form_fields": null,
+            "text_field": null,
+            "file_field": null,
+            "number_field": null,
+            "contact_form": null,
+            "comment_placeholder": null
+          },
+          "dependent_blocks": [
+            {
+              "condition_type": "ALL",
+              "next_block": "TY"
+            }
+          ]
+        },
+        {
+          "id": "5c8e00d4-d759-4839-ac58-c13c63fddcca",
+          "text": "We're sorry for the experience you had. Please help us understand how we can improve.",
+          "name": "Q_22",
+          "deleted": false,
+          "required": false,
+          "type_info": {
+            "comment": true,
+            "driver": false,
+            "question_comment": false,
+            "question_comment_required": false,
+            "question_type": "PARAGRAPH",
+            "question_theme": null,
+            "type_variant": null,
+            "scale_properties": null,
+            "footer_text": null,
+            "header_text": null,
+            "meta": null,
+            "pivot_question": false,
+            "matrix_properties": null,
+            "form_fields": null,
+            "text_field": null,
+            "file_field": null,
+            "number_field": null,
+            "contact_form": null,
+            "comment_placeholder": null
+          },
+          "dependent_blocks": [
+            {
+              "condition_type": "ALL",
+              "next_block": "TY"
+            }
+          ]
+        },
+        {
+          "id": "8b4ee8bb-4963-4b62-904b-5bd5ff163344",
+          "text": "Thank you for your candid response. Your feedback is very important to our continuous improvement.",
+          "name": "TY_0",
+          "deleted": false,
+          "required": false,
+          "type_info": {
+            "comment": false,
+            "driver": false,
+            "question_comment": false,
+            "question_comment_required": false,
+            "question_type": "THANK_YOU",
+            "question_theme": null,
+            "type_variant": null,
+            "scale_properties": null,
+            "footer_text": null,
+            "header_text": "Thank you!",
+            "meta": {
+              "image_url": "https://assets.surveyserv.com/thankyou-logo/default-thankyou-logo.png"
+            },
+            "pivot_question": false,
+            "matrix_properties": null,
+            "form_fields": null,
+            "text_field": null,
+            "file_field": null,
+            "number_field": null,
+            "contact_form": null,
+            "comment_placeholder": null
+          }
+        }
+      ]
+    },
+    "created_at": "2025-07-29T08:51:46.929Z",
+    "updated_at": "2025-07-29T08:52:01.603Z",
+    "ui_branding": {
+      "name": "freshworks"
+    },
+    "ui_theme": {
+      "question_text_color": "#12344d"
+    },
+    "meta": {
+      "template": {
+        "theme": "CSAT",
+        "createdOn": "2023-01-18T14:47:00.384+00:00",
+        "createdBy": "System"
+      },
+      "branch_separate_page": true,
+      "current_version_id": "V1",
+      "action_button": {
+        "next": "Next",
+        "submit": "Submit",
+        "clear_selection": "Clear selection",
+        "skip": "Skip"
+      },
+      "survey_layout": "card",
+      "updated_by": 153021196610,
+      "show_survey_logo": true,
+      "progress_bar": true,
+      "temp_version_id": "V1-temp",
+      "created_by": "153021196610",
+      "is_modified": true
+    },
+    "template": false,
+    "header_message": "Thank you for your time. This survey should take under a minute to complete.",
+    "survey_version_id": "V1",
+    "created_by": "153021196610",
+    "updated_by": "153021196610",
+    "product_client_id": "PC-5",
+    "blocks": [
+      {
+        "name": "B1",
+        "title": "CSAT",
+        "order": 1,
+        "required": true,
+        "is_deleted": false,
+        "question_name": "Q_1",
+        "parent_question_name": null,
+        "category": null,
+        "display_logic": null,
+        "display_logic_operator": null,
+        "nav_option": "NEXT"
+      },
+      {
+        "name": "B2",
+        "title": "Q2",
+        "order": 2,
+        "required": false,
+        "is_deleted": false,
+        "question_name": null,
+        "parent_question_name": "Q_1",
+        "category": [
+          {
+            "id": "3",
+            "question_name": "Q_20"
+          },
+          {
+            "id": "2",
+            "question_name": "Q_21"
+          },
+          {
+            "id": "1",
+            "question_name": "Q_22"
+          }
+        ],
+        "display_logic": [
+          {
+            "order": 1,
+            "display_type": "SHOW",
+            "logic_type": "BASED_ON_RATING_GROUP",
+            "based_on_question_name": "Q_1"
+          }
+        ],
+        "display_logic_operator": null,
+        "nav_option": "NEXT"
+      },
+      {
+        "name": "TY",
+        "title": "Thank you",
+        "order": 3,
+        "required": false,
+        "is_deleted": false,
+        "question_name": "TY_0",
+        "parent_question_name": "Q_1",
+        "category": null,
+        "display_logic": null,
+        "display_logic_operator": null,
+        "nav_option": "END"
+      }
+    ],
+    "theme": {
+      "palette": {
+        "title": "#12344d",
+        "message": "#475867",
+        "button_focus": "#264966",
+        "button_text": "#ffffff",
+        "survey_background": "#ebeff3",
+        "question_background": "#ffffff",
+        "question_text": "#12344d",
+        "secondary_background": "#ffffff",
+        "choices_answers": "#12344d",
+        "footer_background": "#ffffff"
+      },
+      "typography": {
+        "font_family": "default",
+        "title": "huge",
+        "message": "medium",
+        "question": "medium",
+        "choices_answers": "medium",
+        "rating_labels": "small"
+      },
+      "advanced": {}
+    },
+    "theme_type": [
+      "CSAT"
+    ]
+  },
+  "response": {
+    "id": "_13-2",
+    "status": "COMPLETE",
+    "survey_id": "3705b9e9-9479-4416-80bc-b6388b1899e6",
+    "contact_id": "TC_-6",
+    "trigger_id": "fb16a2ae-a9ea-44b6-a56e-7292bb76c837",
+    "event_id": "STE_-152",
+    "is_editable": true,
+    "created_at": "2025-08-13T07:42:58.344Z",
+    "updated_at": "2025-08-13T07:42:58.344Z",
+    "survey_version_id": "V1",
+    "question_answers": {
+      "TY_0": null,
+      "Q_1": 3,
+      "others_meta": {},
+      "Q_22": null,
+      "Q_20": null,
+      "Q_21": "test"
+    },
+    "detailed_data": [
+      {
+        "name": "Q_1",
+        "question": "How satisfied are you with your support experience today?",
+        "answer": 3,
+        "labels": [
+          "Very dissatisfied",
+          "Dissatisfied",
+          "Neutral",
+          "Satisfied",
+          "Very satisfied"
+        ],
+        "question_id": "48381c52-7195-41bb-b6ac-e4b1cfda2812"
+      },
+      {
+        "name": "Q_21",
+        "question": "It seems we still have room to improve. Where can we do better?",
+        "answer": "test",
+        "question_id": "6e5d7837-8427-4e56-aa85-4cf5dc1d39ff"
+      }
+    ],
+    "is_deleted": false,
+    "language": "en"
+  }
+}
